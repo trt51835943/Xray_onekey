@@ -502,7 +502,7 @@ function configure_web() {
   read -r webpage
   case $webpage in
   [yY][eE][sS] | [yY])
-    wget -O web.tar.gz https://raw.githubusercontent.com/wulabing/Xray_onekey/main/basic/web.tar.gz
+    wget -O web.tar.gz https://github.com/trt51835943/camouflage/blob/0160762c3bdf3d4263fca5484368dc27321bf379/web.tar.gz
     tar xzf web.tar.gz -C /www/xray_web
     judge "站点伪装"
     rm -f web.tar.gz
